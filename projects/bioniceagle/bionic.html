@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Bionic Eagle Arcade Machine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+		box-sizing: border-box;
+		color:#fff;
+	}
+	a{
+		text-decoration: none;
+		color:#fff;
+	}
+	a:active {
+		text-decoration: underline;
+		color:#fff;
+	}
+	body {
+		background-color: #0f0f0f;
+		padding: 20px;
+		font-family: Arial;
+	}
+	
+	/* Center website */
+	.main {
+		margin: auto;
+		max-width:1250px;
+	}
+	
+	h1 {
+		font-size: 50px;
+		word-break: break-all;
+	}
+	
+	.row {
+		margin: 8px -16px;
+	}
+	
+	/* Add padding BETWEEN each column */
+	.row,
+	.row > .column {
+		padding: 8px;
+	}
+	
+	/* Create four equal columns that floats next to each other */
+	.column {
+		float: left;
+		width: 25%;
+	}
+	
+	/* Clear floats after rows */ 
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	/* Content */
+	.content {
+		background-color: #F1F1F111;
+		padding: 10px;
+		-webkit-transition: background-color 0.1s;
+		transition: background-color 0.1s;
+	}
+	
+	.subtitle {
+		height:90px;
+		vertical-align:bottom;
+	}
+	
+	.content:hover {
+		background-color: #F1F1F140;
+	}
+	
+	.top {
+		max-width:1250px;
+		margin:auto;
+	}
+	.flex {
+		display:flex;
+		flex-direction:row;
+	}
+	
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 900px) {
+		.column {
+			width: 50%;
+		}
+	}
+	
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
+	</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="flex">
+					<div>
+						<img src="bioniceagle-v2-marquee-small.png" width="75%"/>
+					</div>
+					<div>
+						<img src="../../badges/intel_inside.gif"/><br/>
+						<img src="../../badges/nvidia2.gif"/><br/>
+						<img src="../../badges/MAME.png"/><br/>
+						<img src="../../badges/anti.png"/><br/>
+					</div>
+				</div>
+				<hr>
+				<p>During my senior year in high school, a friend and I started a club with the goal of building an arcade machine. Over the course of three months, we led a team of students through the process of building a MAME cabinet almost completely from scratch. The machine is now an entertainment staple in between classes, and makes occasional appearances at school events.</p>
+				<p>Originally, the cabinet ran on a decommissioned server (trash-picked from the IT department), modified to use a GTX 670 FTW graphics card (donated by one of my peers). To solve power consumption issues, these were replaced with a spare laptop in early 2019. I adopted the server for personal use. (Incidentally, Toan, if you ever read this, I still have your GPU. I've lost your number - contact me.)</p>
+				<p>Don't ask about the name.</p>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="./images/00.jpg">
+						<div class="content">
+							<img src="./images/00a.jpg" style="width:100%">
+							<h3>Empty Cabinet</h3>
+							<div class="subtitle"><p>We started with a mostly gutted arcade cabinet from craigslist. This is it laying down in the school van.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/01.jpg">
+						<div class="content">
+							<img src="./images/01a.jpg" style="width:100%">
+							<h3>Paint</h3>
+							<div class="subtitle"><p>We decided to go for a synthwave-inspired color scheme.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/02.jpg">
+						<div class="content">
+							<img src="./images/02a.jpg" style="width:100%">
+							<h3>Internals</h3>
+							<div class="subtitle"><p>Server, jury-rigged graphics card, and daisy-chained PSU</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/03.jpg">
+						<div class="content">
+							<img src="./images/03.jpg" style="width:100%">
+							<h3>Marquee</h3>
+							<div class="subtitle"><p>Based heavily off of the Farcry Blood Dragon logo. The fluorescent bulb was replaced with LED strip lighting.</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="./images/04.jpg">
+						<div class="content">
+							<img src="./images/04a.jpg" style="width:100%">
+							<h3>Monitor mounted</h3>
+							<div class="subtitle"><p>To my knowledge, this monitor defies gravity and is mounted with magic.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/05.jpg">
+						<div class="content">
+							<img src="./images/05a.jpg" style="width:100%">
+							<h3>Control wiring</h3>
+							<div class="subtitle"><p>This is what all of the switches run into.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/06.jpg">
+						<div class="content">
+							<img src="./images/06.jpg" style="width:100%">
+							<h3>Controls Layout</h3>
+							<div class="subtitle"><p>Two 8-button stepped layouts traced onto MDF</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/07.jpg">
+						<div class="content">
+							<img src="./images/07.jpg" style="width:100%">
+							<h3>BSOD</h3>
+							<div class="subtitle"><p>Apparently, if the slave PSU powers off before the master, the graphics drivers stop working.</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="./images/08.jpg">
+						<div class="content">
+							<img src="./images/08.jpg" style="width:100%">
+							<h3>Cupholders</h3>
+							<div class="subtitle"><p>The most important part of the machine was an impulse buy.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/09.jpg">
+						<div class="content">
+							<img src="./images/09.jpg" style="width:100%">
+							<h3>Battletoads</h3>
+							<div class="subtitle"><p>MAME is set up and running on the machine.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/10.jpg">
+						<div class="content">
+							<img src="./images/10.jpg" style="width:100%">
+							<h3>Switches Mounted</h3>
+							<div class="subtitle"><p>Panel is finally cut, and switches installed. Monitor bezel also added.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/11.jpg">
+						<div class="content">
+							<img src="./images/11.jpg" style="width:100%">
+							<h3>Sawdust</h3>
+							<div class="subtitle"><p>A sign of progress.</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="./images/12.jpg">
+						<div class="content">
+							<img src="./images/12.jpg" style="width:100%">
+							<h3>Fixing the MDF</h3>
+							<div class="subtitle"><p>MDF was torn on the back. Spade bits are difficult.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/13.jpg">
+						<div class="content">
+							<img src="./images/13.jpg" style="width:100%">
+							<h3>Joysticks installed.</h3>
+							<div class="subtitle"><p>These were the inspiration for the synthwave aesthetic.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/14.jpg">
+						<div class="content">
+							<img src="./images/14.jpg" style="width:100%">
+							<h3>Homing Sequins</h3>
+							<div class="subtitle"><p>Since the joysticks are angled apart, sequins were added to indicate direction.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./images/15.jpg">
+						<div class="content">
+							<img src="./images/15.jpg" style="width:100%">
+							<h3>Finished Console</h3>
+							<div class="subtitle"><p>Nearly complete</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="./images/16.jpg">
+						<div class="content">
+							<img src="./images/16.jpg" style="width:100%">
+							<h3>Completed Machine</h3>
+							<div class="subtitle"><p>We spent a lot of time "testing" it.</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

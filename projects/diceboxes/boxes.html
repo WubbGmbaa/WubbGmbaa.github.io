@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Dice Boxes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+		box-sizing: border-box;
+		color:#fff;
+	}
+	a{
+		text-decoration: none;
+		color:#fff;
+	}
+	a:active {
+		text-decoration: underline;
+		color:#fff;
+	}
+	body {
+		background-color: #0f0f0f;
+		padding: 20px;
+		font-family: Arial;
+	}
+	
+	/* Center website */
+	.main {
+		margin: auto;
+		max-width:1250px;
+	}
+	
+	h1 {
+		font-size: 50px;
+		word-break: break-all;
+	}
+	
+	.row {
+		margin: 8px -16px;
+	}
+	
+	/* Add padding BETWEEN each column */
+	.row,
+	.row > .column {
+		padding: 8px;
+	}
+	
+	/* Create four equal columns that floats next to each other */
+	.column {
+		float: left;
+		width: 25%;
+	}
+	
+	/* Clear floats after rows */ 
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	/* Content */
+	.content {
+		background-color: #F1F1F111;
+		padding: 10px;
+		-webkit-transition: background-color 0.1s;
+		transition: background-color 0.1s;
+	}
+	
+	.subtitle {
+		height:90px;
+		vertical-align:bottom;
+	}
+	
+	.content:hover {
+		background-color: #F1F1F140;
+	}
+	
+	.top {
+		max-width:1250px;
+		margin:auto;
+	}
+	.flex {
+		display:flex;
+		flex-direction:row;
+	}
+	
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 900px) {
+		.column {
+			width: 50%;
+		}
+	}
+	
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
+	</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="flex">
+					<h1>Dice Boxes</h1>
+				</div>
+				<hr>
+				<p>I make custom boxes for RPG dice sets. Each box is designed to match the dice it contains.</p>
+				<p>Click any box to reveal more information and images.</p>
+			</div>
+			<!-- row start !-->
+			<div class="row">
+				<div class="column">
+					<a href="./greenknot.html">
+						<div class="content">
+							<img src="./images/green3.jpg" style="width:100%">
+							<h3>Green Celtic Knot</h3>
+							<div class="subtitle"><p>This is my favorite. I plan to make more similar to this.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./jontray.html">
+						<div class="content">
+							<img src="./images/jontray2.jpg" style="width:100%">
+							<h3>Dark Dice Tray</h3>
+							<div class="subtitle"><p>Not technically a box, but holds dice.</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./koi.html">
+						<div class="content">
+							<img src="./images/koi4.jpg" style="width:100%">
+							<h3>Koi Box</h3>
+							<div class="subtitle"><p>The original box</p></div>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./bones.html">
+						<div class="content">
+							<img src="./images/bones.jpg" style="width:100%">
+							<h3>Skeleton Box</h3>
+							<div class="subtitle"><p>"Skull Servant" Yu-Gi-Oh card</p></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!--add a new row after every four columns!-->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+.titlebar{
+	height:40px;
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+	padding: 0 20px;
+	border: 5px solid transparent;
+}
+}
+.torso{
+	width:100%;
+}
+.footerbar{
+	height:15px;
+	background-color:#303030;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
