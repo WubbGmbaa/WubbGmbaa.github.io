@@ -26,7 +26,13 @@ h1 {
 	font-size: 50px;
 	word-break: break-all;
 }
-
+.headertitle{
+	width: 75%;
+}
+.headerside{
+	width: 25%;
+	text-align: right;
+}
 .row {
 	margin: 8px -16px;
 }
