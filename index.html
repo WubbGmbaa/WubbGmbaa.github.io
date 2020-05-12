@@ -1,70 +1,64 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
-		<link rel="stylesheet" href="indexmain.css" />
-		<title>I Make Cool Stuff</title>
+		<title>Bryan Gratz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./maingallery.css" />
 	</head>
 	<body>
-		<div class="sidebar_nav">
-			<div class="sidebar_notbottom">
-				<p class="sidebar-header-text">Live Stuff:</p>
-				<iframe src="http://player.twitch.tv/?channel=wubb_gmbaa" allowfullscreen height="180" width="235" *class="col-md-12"></iframe>
-				
-				<p class="sidebar-header-text"><br />Tweeted Stuff:</p>
-				<a class="twitter-timeline" data-width="235" data-height="400" data-theme="dark" href="https://twitter.com/WubbGmbaa?ref_src=twsrc%5Etfw">Tweets by WubbGmbaa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div class="main">
+			<div class="top">
+				<div class="flex">
+					<div class="headertitle">
+						<h1>Bryan Gratz</h1>
+					</div>
+					<div class="headerside">
+						
+					</div>
+				</div>
+				<hr>
+				<p>I have lots of projects, and I try to document them here as much as possible.</p>
 			</div>
-			<div class="sidebar_bottom">
-				<div class="about_Site">
-					<p>This website is another one of my projects, and I make frequent changes. The whole thing is written by hand in Dreamweaver, and I'm hoping to migrate it to my own server soon.</p>
+			<!-- row start !-->
+			<div class="row">
+				<div class="column">
+					<a href="./projects/diceboxes/boxes.html">
+						<div class="content">
+							<img src="./projects/diceboxes/poster.jpg" style="width:100%">
+							<h3>Dice Boxes</h3>
+							<div class="subtitle"><p>Wood boxes for RPG dice sets</p></div>
+						</div>
+					</a>
 				</div>
-				<div class="badges">
-					<img src="./badges/anti.png" alt="Made By WubbGmbaa" />
-					<a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./badges/ccbysa.png" alt="Creative Commons" /></a>
-					<a href="http://validator.w3.org/check?uri=referer"><img src="./badges/w3c-html5.png" alt="Valid XHTML 1.0 Transitional" /></a>
-					<a href="https://httpd.apache.org/"><img src="./badges/apache.gif" alt="Apache Powered" /></a>
-					<a href="https://cpanel.com/"><img src="./badges/cpanel.png" alt="cPanel Powered" /></a>
-					<img src="./badges/dreamweaver.gif" alt="Written in Dreamweaver" />
+				<div class="column">
+					<a href="./projects/bioniceagle/bionic.html">
+						<div class="content">
+							<img src="./projects/bioniceagle/poster.jpg" style="width:100%">
+							<h3>Project Bionic Eagle</h3>
+							<div class="subtitle"><p>An arcade machine I helped build in high school</p></div>
+						</div>
+					</a>
 				</div>
-				<p style="font-size:8px;">Antipixel badges are still cool; fight me.</p>
-			</div>
-		</div>
-		<div class="main_page_container">
-			<div class="page_header floating_element">
-				<a href="./index.html">
-					<img src="./top.svg" class="titleimage" alt="I Make Cool Stuff" />
-				</a>
-				<p>
-					Greetings! I'm Bryan, A.K.A. WubbGmbaa, and I have lots of pet projects.<br />
-					This is where some of them live.
-				</p>
-			</div>
-			<div class="main_page">
-				<div class="section_header_grey">
-					In-Progress Stuff
+				<div class="column">
+					<a href="https://github.com/WubbGmbaa/synthbloks">
+						<div class="content">
+							<img src="./projects/synthblocks/poster.jpg" style="width:100%">
+							<h3>SynthBloks</h3>
+							<div class="subtitle"><p>A form factor for modular synthesizers - to be renamed</p></div>
+						</div>
+					</a>
 				</div>
-				<div class="content_section_text">
-					<ul>
-						<li><a href="https://youtu.be/BAOCNkqZfYQ">Circuitbent Casio PT-87</a></li>
-						<li><a href="https://github.com/WubbGmbaa/synthbloks">SynthBloks</a></li>
-						<li><a href="./projects/diceboxes/boxes.html">Dice Boxes</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="main_page">
-				<div class="section_header_grey">
-					Completed Stuff
-				</div>
-				<div class="content_section_text">
-					<ul>
-						<li><a href="https://youtu.be/m1PyiaZo9Nw">The Agony Machine</a></li>
-						<li><a href="https://youtu.be/8ClDcmxWRDY">The Frob-Amp</a></li>
-						<li><a href="./projects/bioniceagle/bionic.html">Project Bionic Eagle</a></li>
-					</ul>
+				<div class="column">
+					<a href="https://youtu.be/BAOCNkqZfYQ">
+						<div class="content">
+							<img src="./projects/pt87/poster.png" style="width:100%">
+							<h3>Circuitbent Casio PT-87</h3>
+							<div class="subtitle"><p>My introductory circuitbending project</p></div>
+						</div>
+					</a>
 				</div>
 			</div>
+			<!--add a new row after every four columns!-->
 		</div>
 	</body>
 </html>
-
