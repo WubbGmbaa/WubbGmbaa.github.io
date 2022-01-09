@@ -1,6 +1,0 @@
-slappy-01.mmpz is the project file, can be opened in LMMS.
-albumart-01.jpg is the album art (I hope that was obvious)
-hexagon.mp3 is the song itself (I hope that was obvious too)
-albumart.ai is the Adobe Illustrator cs6 file for the album art
-noise.wav is a sound that the LMMS file uses
-contents.txt is this descriptive file
