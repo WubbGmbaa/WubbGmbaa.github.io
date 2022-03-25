@@ -7,7 +7,7 @@ import threading
 import logging
 import sys
 print("TreeGen by Bryan Gratz")
-print("https://bryan.project.zone/projects/TreeGen/treegen.html\n")
+print("https://bryangratz.net/projects/TreeGen/treegen.html\n")
 print("This work is licensed under a Creative Commons\nAttribution-ShareAlike 4.0 International License")
 print("http://creativecommons.org/licenses/by-sa/4.0/\n\n")
 startingPenSize = 10
