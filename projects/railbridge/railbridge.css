@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	color:#fff;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #4F4F4F;
+}
+a{
+	#text-decoration: none;
+	color:#bbb;
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+}
+a:hover {
+	text-decoration:underline;
+	color:#888;
+}
+body {
+	background-color: #1a1a1a;
+	padding: 20px;
+	font-family: Arial;
+}
+
+/* Center website */
+.main {
+	margin: auto;
+	#max-width:1250px;
+}
+
+h1 {
+	font-size: 28px;
+	word-break: break-all;
+}
+.headertitle{
+	width: 75%;
+}
+.headerside{
+	width: 25%;
+	text-align: right;
+}
+
+.top {
+	#max-width:1250px;
+	margin:auto;
+}
+.flex {
+	display:flex;
+	flex-direction:row;
+}
+.bodybox-left{
+	float:left;
+	width: 50%;
+	padding-right:25px;
+}
+.bodybox-right{
+	float:left;
+	width: 50%;
+	padding-left:25px;
+}
