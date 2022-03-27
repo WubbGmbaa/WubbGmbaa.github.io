@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	color:#fff;
+}
+
+a{
+	color:#bbb;
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+}
+a:hover {
+	text-decoration:underline;
+	color:#888;
+}
+body {
+	background-color: #1a1a1a;
+	padding: 20px;
+	font-family: Arial;
+}
+
+/* Center website */
+.main {
+	margin: auto;
+}
+
+h1 {
+	font-size: 28px;
+	word-break: break-all;
+}
+.headertitle{
+	width: 75%;
+}
+.headerside{
+	width: 25%;
+	text-align: right;
+}
+
+.top {
+	margin:auto;
+}
+.flex {
+	display:flex;
+	flex-direction:row;
+}
+.bodybox-left{
+	float:left;
+	width: 50%;
+	padding-right:25px;
+	overflow-y:auto;
+	height:calc(100vh - 166.94px) /* Clearly I do not understand how "height: 100%" works. This is my workaround, magic number for height of header*/
+}
+.bodybox-right{
+	float:left;
+	width: 50%;
+	padding-left:25px;
+}
+
+.gallery-container {
+  position: relative;
+  height: calc(100vh - 245.94px) /* Clearly I do not understand how "height: 100%" works. This is my workaround, magic number for height of header*/
+}
+.slide {
+  display: none;
+  height:100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration:none;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  height:55px;
+  overflow-y:hidden;
+}
+.filmstrip:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.filmstrip-thumbnail {
+  float: left;
+  width: 16.6%;
+  max-width: 100px;
+}
+.ftimg {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.active,
+.ftimg:hover{
+	opacity: 1;
+}
+.slideContent{
+	width:100%;
+	height:calc(100% - 60px); /*fix for issue with div nesting, see line 63 in pillar.html*/
+	object-fit:contain;
+}
